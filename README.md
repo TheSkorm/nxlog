@@ -542,7 +542,7 @@ http://nxlog.org/documentation/nxlog-community-edition-reference-manual-v20928#o
 | Attribute name        | Description                                                      | Type    | Default             |
 | ----------------------| ---------------------------------------------------------------- | ------- | ------------------- |
 | url                   | The url to post the data to                                      | String  | none - **Required** |
-| content-type          | The content-type header of the http request                      | String  | 'text/plain'        |
+| content_type          | The content-type header of the http request                      | String  | 'text/plain'        |
 | https_cert_file       | Path to the https certificate file                               | String  | none                |
 | https_cert_key_file   | Path to the https certificate key file                           | String  | none                |
 | https_key_pass        | Password for the certificate key file                            | String  | none                |
